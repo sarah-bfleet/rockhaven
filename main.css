@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+}
+
+.main {
+    padding: 50px 0 90px;
+}
+
+h1, h2, h3 {
+    color: #a707b2;
+    margin: 20px 0 30px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+}
+
+nav a {
+    color: #00acc8;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+   /* margin-top: 40px;
+    display: block;*/
+    height: auto;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.text-color  {
+    color: #00acc8;
+}
+
+.banner img {
+    margin: 0;
+    width: 100%;
+   
+}
+
+.cta {
+    background-color: #12616d;
+    padding: 150px 0;
+    color: white;
+    font-size: 2.25rem;
+    text-transform: uppercase;   
+}
+
+.cta p {
+   width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    text-decoration: none;
+    border: 4px solid white;
+    background-color: #12616d;
+    color: white;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    font-size: 2.25rem;
+    margin-top: 30px;
+    outline: none;
+}
+
+.header-btn {
+    font-size: 1.25rem;
+    padding: .25em .75em;
+    border: none;
+}
+
+.button, .donate-btn {
+    text-align: center;
+}
+
+.donate-btn {
+    padding: 30px 0;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+footer ul li {
+    display: inline;
+    font-size: 2.5em;
+  }
+  
+  footer i {
+    margin: 10px 25px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    color: #12616d;
+  }
+   
+  footer address {
+      margin: 0;
+  }
+
+
+/**********************
+Mission Page
+***********************/
+
+.bullet-list {
+    margin-top: 20px;
+}
+
+.extra-info {
+    margin-top: 40px;
+}
+
+.mission-btn {
+    text-decoration: none;
+    border: 4px solid white;
+    background-color: #12616d;
+    color: white;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+ .rh-vision {
+     font-weight: bold;
+ }
+
+
+
+/********************
+Contact Page 
+********************/
+
+ address, address a, figcaption {
+     color: #a707b2;
+     font-style: normal;
+     text-decoration: none;
+     font-size: 1.25rem;
+ }
+
+ address p {
+     margin: 50px 0 30px;
+ }
+
+
+ .contact-main {
+     text-align: center;
+ }
+
+ figure img {
+     border: 4px solid #f39dd9;
+     
+ }
+
+ figcaption {
+     margin-top: 10px;
+ }
+
+ /**********************************
+ PROGRAMS PAGE
+ ***********************************/
+.programs-btn {
+    text-decoration: none;
+    border: 4px solid white;
+    background-color: #12616d;
+    color: white;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/************************************
+EVENTS
+**************************************/
+
+.event-pics {
+    margin-top: 60px;
+}
+
+.event-pics img {
+    margin: 20px 0;
+}
+
+
+
+ /* ================================================================
+      DESKTOP MEDIA QUERY
+  ====================================================================*/
+  
+  @media only screen and (min-width: 1200px) {
+
+ 
+    .flex-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    header img {
+        margin: 0;
+        width: 250px;
+    }
+
+  .header-btn {
+        text-decoration: none;
+        border: 4px solid white;
+        background-color: #12616d;
+        color: white;
+        padding: 0.75em 2em;
+        font-size: 1.25rem;
+        margin: 0;
+    }
+  
+    .donate-btn {
+        text-align: right;
+        padding: 0;
+    }
+
+    .donate-btn button {
+        text-transform: uppercase;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+   nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    .main-content {
+        display: flex;
+        margin: 40px 0 70px;
+    }
+
+    .main-text {
+        width: 30%;
+    }
+
+    .img1 {
+        display: flex;
+        width: 30%;
+        margin: 0 50px;
+    }
+
+    .img1 img {
+        border: 4px solid #ff00ff;
+        display: block;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .contact-main h1 {
+        margin: 40px 0 50px;
+        font-size: 2.375rem;
+    }
+
+     address p, address a, figcaption {
+         font-size: 1.562rem;
+     }
+
+     .address-logo img {
+         width: 350px;
+     }
+
+     .mission-content, .flex {
+         display: flex;
+         margin-top: 50px;
+     }
+
+     .col-1, .col-2 {
+         width: 50%;
+     }
+
+     .col-1 {
+         margin-right: 40px;
+     }
+
+     p {
+         font-size: 1.125rem;
+     }
+
+     .cta p {
+         font-size: 3rem;
+     }
+
+     .wrap {
+         width: 80%;
+     }
+
+    
+     .footer-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+
+    
+    footer ul li i {
+        margin: 20px;
+    }
+
+    footer img {
+        margin-right: 30px;
+        width: 350px;
+    }
+   
+  }
+
+
+  
