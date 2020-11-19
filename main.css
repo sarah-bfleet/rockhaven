@@ -179,26 +179,22 @@ button {
 
 .cta {
     background-color: #12616d;
-    padding: 150px 0;
-    color: white;
+    padding: 80px 0;
     font-size: 2.25rem;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+    text-align: center; 
+    margin: 50px 0;
 }
 
-.cta button {
-    box-shadow: none;
+.cta-btn {
+    border: 2px solid white;
 }
 
 .cta p {
     width: 90%;
-    text-align: center;
     margin: auto;
     color: white;
     font-family: 'Montserrat', sans-serif; 
-}
-
-.image-gallery {
-    width: 100%;
 }
 
 /***********************
@@ -405,7 +401,7 @@ OUR TEAM
 
     .main-content {
         display: flex;
-        margin: 40px 0 70px;
+        margin: 40px 0 0;
     }
 
     .main-text {
@@ -427,7 +423,7 @@ OUR TEAM
     }
 
     .cta {
-        padding: 150px 0;
+        margin: 10px 0 60px;
     }
 
     .cta p {
