@@ -65,7 +65,7 @@ img {
 ************************/
 header {
     background-color: #f6f6f6;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 nav {
@@ -108,7 +108,7 @@ nav a:hover, footer a:hover {
 
 
 header img {
-    width: 250px;
+   width: 150px;
 }
 
 .flex-header {
@@ -144,10 +144,14 @@ button {
 .header-btn {
     font-size: 1.25rem;
     padding: .25em .75em;
-    
-    border: none;
-    /*box-shadow: 0 20px 30px 0 rgba(0,0,0,.1);
-    box-shadow: 0 5px 25px 0 rgba(0,0,0,.25);*/
+     border: none;
+}
+
+.header-btn:hover {
+    cursor: pointer;
+    background-color: #ffec00;
+    color: #026675;
+    font-weight: bold;
 }
 
 .button, .donate-btn {
@@ -182,6 +186,7 @@ button {
     padding: 30px 0;
 }
 
+
 .cta {
     position: relative;
     padding: 200px 0;
@@ -211,6 +216,13 @@ button {
     text-transform: uppercase;
     right: 0px;
     font-weight: bold;
+}
+
+.cta-btn:hover {
+    cursor: pointer;
+    background-color: #00acc8;
+    color: white;
+    border: none;
 }
 
 
@@ -276,6 +288,10 @@ footer ul li {
     margin: 10px 5px;
     padding: 5px;
     color: #12616d;
+  }
+
+  footer i:hover {
+      color: #a707b2;
   }
    
   footer address {
@@ -434,6 +450,12 @@ BLOG PAGE
    
   .card button {
       background-color: purple;
+      border: none;
+  }
+
+  .card button:hover {
+      background-color: #12616d;
+      cursor: pointer;
   }
 
   .blog5-list {
@@ -444,6 +466,9 @@ BLOG PAGE
       font-weight: bold;
   }
 
+  article, .blog {
+      margin-bottom: 60px;
+  }
 
  /* ================================================================
       DESKTOP MEDIA QUERY
@@ -458,20 +483,19 @@ BLOG PAGE
    .flex-header {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
     }
 
     header img {
         margin: 0;
-        width: 250px;
+        width: 180px;
     }
 
 
   .header-btn {
         text-decoration: none;
         padding: 0.75em 2em;
-        font-size: 1.25rem;
-        margin: 0;
+        font-size: 1rem;
+        margin: 0 0 0 20px;
     }
 
     .menu {
@@ -489,7 +513,8 @@ BLOG PAGE
     
     nav {
         display: flex;
-        align-items: center;
+        flex-grow: 1;
+        justify-content: flex-end;
     }
 
    nav ul {
@@ -499,6 +524,7 @@ BLOG PAGE
     nav li {
         margin: 0 10px;
     } 
+
 
     /************************
      MAIN SECTION 
@@ -552,6 +578,13 @@ BLOG PAGE
    .image-gallery {
        margin-bottom: 30px;
    }
+
+  .img-col {
+      width: 33.3%;
+     margin: 5px;
+  }
+
+
 
     /****************************
     FOOTER
@@ -620,7 +653,9 @@ BLOG PAGE
          width: 80%;
      }
     
-     
+     .mission-content .col-1 {
+         margin-right: 60px;
+     }
 
     /*BLOG PAGE*/
 
@@ -634,12 +669,17 @@ BLOG PAGE
 
   .row2 {
       display: flex;
+      
   }
 
   .card {
     width: 30%;
   }
 
+ .fifth-card {
+      margin-left: 50px;
+    
+  }
   
   }
 
